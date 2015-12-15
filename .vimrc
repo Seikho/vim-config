@@ -11,6 +11,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'Shougo/vimproc.vim'
 Plugin 'Quramy/tsuquyomi'
 
 call vundle#end()
