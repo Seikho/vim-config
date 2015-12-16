@@ -1,1 +1,1 @@
-let g:airline_section_y = '%{tsuquyomi#hint()}'
+:map <C-E> :echom substitute(tsuquyomi#hint(), "\s+", "", "g")<CR>
