@@ -28,6 +28,8 @@ set shiftwidth=4
 
 autocmd vimenter * NERDTree
 
+autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()<CR>
+
 let NERDTreeShowHidden=1
 
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
