@@ -15,6 +15,7 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'Quramy/tsuquyomi'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jason0x43/vim-js-indent'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
