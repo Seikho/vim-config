@@ -28,4 +28,4 @@ set shiftwidth=4
 
 autocmd vimenter * NERDTree
 
-
+let NERDTreeShowHidden=1
