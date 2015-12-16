@@ -29,3 +29,5 @@ set shiftwidth=4
 autocmd vimenter * NERDTree
 
 let NERDTreeShowHidden=1
+
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
