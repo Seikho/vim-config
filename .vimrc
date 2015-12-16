@@ -14,6 +14,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Quramy/tsuquyomi'
 Plugin 'kien/ctrlp.vim'
+Plugin 'jason0x43/vim-js-indent'
 
 call vundle#end()
 
