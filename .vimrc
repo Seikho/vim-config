@@ -13,6 +13,7 @@ Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Quramy/tsuquyomi'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 
