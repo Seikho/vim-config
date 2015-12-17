@@ -42,8 +42,6 @@ autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()
 
 let NERDTreeShowHidden=1
 
-" set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
-" let g:airline_section_b = '%{strftime("%c")}'
-
+map <C-E><C-R> :CtrlP<CR>
 
 

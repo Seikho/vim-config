@@ -1,1 +1,1 @@
-:map <C-E> :echom substitute(tsuquyomi#hint(), "\s+", "", "g")<CR>
+:map <C-E><C-E> :echom substitute(tsuquyomi#hint(), "\s+", "", "g")<CR>
