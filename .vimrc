@@ -30,6 +30,7 @@ set t_Co=256
 set number
 
 let NERDTreeDirArrows=0
+let NERDTreeIgnore=['node_modules', '.git', '.map']
 
 autocmd vimenter * NERDTree
 autocmd vimenter * AirlineTheme murmur
@@ -40,8 +41,5 @@ au BufRead,BufNewFile *.ts setlocal filetype=typescript
 
 autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()<CR>
 
-let NERDTreeShowHidden=1
-
 map <C-E><C-R> :CtrlP<CR>
-
 
