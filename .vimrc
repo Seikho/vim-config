@@ -17,6 +17,7 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jason0x43/vim-js-indent'
 Plugin 'tpope/vim-surround'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 
@@ -26,9 +27,14 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set t_Co=256
+set number
+
+let NERDTreeDirArrows=0
 
 autocmd vimenter * NERDTree
 autocmd vimenter * AirlineTheme murmur
+
+colorscheme monokai-chris
 
 au BufRead,BufNewFile *.ts setlocal filetype=typescript
 
