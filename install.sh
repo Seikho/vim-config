@@ -11,7 +11,7 @@ mkdir -p ~/.vim/ftplugin
 git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 # Get Vim Colorschemes prior to running Vim
-git clone https://github.com/flazz/vim-colorschemes
+git clone https://github.com/flazz/vim-colorschemes ~/.vim/bundle/vim-colorschemes
 
 # Clone, build and install YouCompleteMe
 git clone https://github.com/Valloric/YouCompleteMe ~/.vim/bundle/YouCompleteMe
