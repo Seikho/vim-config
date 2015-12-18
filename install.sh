@@ -7,7 +7,11 @@ sudo apt-get install build-essential python-dev cmake -y
 mkdir -p ~/.vim/bundle
 mkdir -p ~/.vim/ftplugin
 
+# Get Vundle
 git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
+
+# Get Vim Colorschemes prior to running Vim
+git clone https://github.com/flazz/vim-colorschemes
 
 # Clone, build and install YouCompleteMe
 git clone https://github.com/Valloric/YouCompleteMe ~/.vim/bundle/YouCompleteMe
@@ -20,7 +24,7 @@ ln -s $PWD/.vimrc ~/.vimrc
 ln -s $PWD/typescript.vim ~/.vim/ftplugin/typescript.vim
 
 # Install Vundle plugins
-vim +PluginInstall
+vim +PluginInstall +qall
 
 # Create a symbolic link of typescript_filter.vim in NERDTree filetype plugins
 ln -s $PWD/typescript_filter.vim ~/.vim/bundle/nerdtree/nerdtree_plugin/typescript_filter.vim
