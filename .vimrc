@@ -6,7 +6,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-
 Plugin 'tpope/vim-fugitive'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'scrooloose/nerdtree'
@@ -18,6 +17,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'jason0x43/vim-js-indent'
 Plugin 'tpope/vim-surround'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'groenewege/vim-less'
 
 call vundle#end()
 
