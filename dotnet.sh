@@ -5,4 +5,4 @@ sudo apt-key adv --keyserver apt-mo.trafficmanager.net --recv-keys 417A0893
 
 sudo apt-get update
 
-sudo apt-get install dotnet-dev-1.0.0-preview1-002702
+sudo apt-get install dotnet-dev-1.0.0-preview2-003121
