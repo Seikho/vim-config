@@ -21,6 +21,7 @@ Plugin 'groenewege/vim-less'
 call vundle#end()
 
 filetype plugin indent on
+syntax on
 
 set tabstop=4
 set softtabstop=4
@@ -37,7 +38,7 @@ let g:ctrlp_max_files=0
 autocmd vimenter * NERDTree
 autocmd vimenter * AirlineTheme murmur
 
-colorscheme monokai-chris
+colorscheme Monokai
 
 au BufRead,BufNewFile *.ts setlocal filetype=typescript
 
