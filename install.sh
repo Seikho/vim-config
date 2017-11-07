@@ -25,8 +25,8 @@ ln -s $PWD/.vimrc ~/.vimrc
 # Create a symbolic link of typescript.vim in filetype plugins
 ln -s $PWD/typescript.vim ~/.vim/ftplugin/typescript.vim
 
-# Install Vundle and vim-plug plugins
-vim +PluginInstall +PlugInstall +qall
+# Install plugins
+vim +PluginInstall +PlugInstall +NeoBundleInstall +qall
 
 # Create a symbolic link of typescript_filter.vim in NERDTree filetype plugins
 ln -s $PWD/typescript_filter.vim ~/.vim/bundle/nerdtree/nerdtree_plugin/typescript_filter.vim
