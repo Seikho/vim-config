@@ -14,8 +14,11 @@ git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 # Get Vim Colorschemes prior to running Vim
 git clone https://github.com/flazz/vim-colorschemes ~/.vim/bundle/vim-colorschemes
 
-# Get and Configure tmux Powerline
+# Get and configure tmux Powerline
+brew install rainbarf
 git clone https//github.com/erikw/tmux-powerline ~/projects/tmux-powerline
+mkdir -p ~/projects/tmux-powerline/segments
+cp weather.sh ~/projects/tmux-powerline/segments
 ls -s $PWD/.tmux.conf ~/.tmux.conf
 
 # Create a symbolic link of .vimrc in home directory
