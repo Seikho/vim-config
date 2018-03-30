@@ -6,12 +6,17 @@
 # Create vim bundle/ftplugin folders and parent directories
 mkdir -p ~/.vim/bundle
 mkdir -p ~/.vim/ftplugin
+mkdir -p ~/projects
 
 # Get Vundle
 git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 # Get Vim Colorschemes prior to running Vim
 git clone https://github.com/flazz/vim-colorschemes ~/.vim/bundle/vim-colorschemes
+
+# Get and Configure tmux Powerline
+git clone https//github.com/erikw/tmux-powerline ~/projects/tmux-powerline
+ls -s $PWD/.tmux.conf ~/.tmux.conf
 
 # Create a symbolic link of .vimrc in home directory
 ln -s $PWD/.vimrc ~/.vimrc
