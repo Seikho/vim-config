@@ -16,10 +16,13 @@ git clone https://github.com/flazz/vim-colorschemes ~/.vim/bundle/vim-colorschem
 
 # Get and configure tmux Powerline
 brew install rainbarf
-git clone https//github.com/erikw/tmux-powerline ~/projects/tmux-powerline
+git clone https://github.com/erikw/tmux-powerline ~/projects/tmux-powerline
 mkdir -p ~/projects/tmux-powerline/segments
 cp weather.sh ~/projects/tmux-powerline/segments
 ls -s $PWD/.tmux.conf ~/.tmux.conf
+
+git clone https://github.com/powerline/fonts ~/projects/powerline-fonts
+(cd ~/projects/powerline-fonts && ./install.sh)
 
 # Create a symbolic link of .vimrc in home directory
 ln -s $PWD/.vimrc ~/.vimrc
@@ -35,3 +38,6 @@ ln -s $PWD/typescript_filter.vim ~/.vim/bundle/nerdtree/nerdtree_plugin/typescri
 
 # Install Vimproc
 (cd ~/.vim/bundle/vimproc.vim && make)
+
+echo "Remember to set the terminal font to one of the patched fonts in powerline-fonts"
+echo "Done"
