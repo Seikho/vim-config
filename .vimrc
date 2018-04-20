@@ -19,6 +19,7 @@ Plugin 'jason0x43/vim-js-indent'
 Plugin 'tpope/vim-surround'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'groenewege/vim-less'
+Plugin 'martinda/jenkinsfile-vim-syntax'
 call vundle#end()
 
 
